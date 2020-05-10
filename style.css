@@ -1,0 +1,30 @@
+main
+{
+    border:3px solid black;
+    height:668px;
+    width:668px;
+    margin: 1em 20em;
+}
+.row1 div, .row2 div,.row3 div,.row4 div,.row5 div,.row6 div,.row7 div,.row8 div 
+{
+    width:80px;
+    height:80px;
+    display: inline-block;
+}
+.row1 div:nth-child(even),.row3 div:nth-child(even),.row5 div:nth-child(even),.row7 div:nth-child(even)
+{
+    background-color: white;
+}
+.row1 div:nth-child(odd),.row3 div:nth-child(odd),.row5 div:nth-child(odd),.row7 div:nth-child(odd)
+{
+    background-color: black;
+}
+
+.row2 div:nth-child(even),.row4 div:nth-child(even),.row6 div:nth-child(even),.row8 div:nth-child(even)
+{
+    background-color: black;
+}
+.row2 div:nth-child(odd),.row4 div:nth-child(odd),.row6 div:nth-child(odd),.row8 div:nth-child(odd)
+{
+    background-color: white;
+}
